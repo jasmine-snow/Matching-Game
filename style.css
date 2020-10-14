@@ -1,0 +1,46 @@
+body {
+  background-color: #fbf7f0;
+}
+
+.container {
+  background-color: #f7dad9;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  color: black;
+  font-family: 'Chilanka', cursive;
+}
+
+h2 {
+  text-align: center;
+  color: #968c83;
+}
+
+.card {
+  flex-basis: 8em;
+  height: 12em;
+  border: 1px solid white;
+  background: #FBFBFB;
+  box-shadow: 2px 2px 4px grey;
+  display: grid;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.card span {
+  color: #94b4a4;
+  font-size: 2em;
+}
+
+.card-back span {
+  color: rgba(0, 0, 0, 0);
+}
+
+.card-back {
+  /* adapted from: https://leaverou.github.io/css3patterns/#zig-zag */
+  background-size: 100px 100px;
+  background-color: #968c83;
+  color: rgba(0, 0, 0, 0);
+}
